@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo&family=Balsamiq+Sans&family=Libre+Franklin:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+/* Global Tags*/
+h1 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: rgb(35, 35, 85);
+}
+
+span {
+    font-size: .9rem;
+    color: #757373;
+}
+
+h6 {
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+
+/*Navigation*/
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #0005;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .items {
+    display: flex;
+    width: 700px;
+    margin-right:20px;
+    margin-left: 400px;
+  }
+  
+  .item1 {
+    margin-left: 30px;
+    margin-top: 35px;
+    text-decoration: none;
+  }
+  
+  .item1 a {
+  
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .logo {
+    height: 80px;
+    width: 100px;
+  }
+  .logo img {
+
+    margin-top: 7px;
+  margin-bottom: -17px;
+  border-radius: 64%;
+  height: 80px;
+  width: 100px;
+  }
+ 
+
+.header {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(5, 4, 46, 0.7)), url("https://peterpilt.files.wordpress.com/2016/01/blogging-image.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 1279px 700px; margin-bottom: 10px;
+}
+
+#about-home h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.col{
+    width:48%;
+}
+
+.post1 img{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+.post1 p{
+    font-size: 0.9rem;
+    line-height:1.5rem;
+    opacity:0.6;
+    text-align:justify;
+}
+.post1{
+    background-color: rgb(255, 241, 241);
+    box-shadow: rgba(0, 0,0 , 0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05) 0px 4px 6px -2px;
+    margin-top:3rem;
+}
+.post-info{
+    padding:1rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.post-info h2{
+    text-align: center;
+}
+.post-info h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.col1{
+    width:48%;
+}
+.user-info img{
+    width:60px;
+    height:60px;
+    margin-left:-1rem;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    margin:1rem;
+}
+.user-info span{
+    margin-left: 0.5rem;
+}
+footer {
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+footer .navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #006D5B;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+footer .footer-col {
+    padding: 40px;
+}
+
+footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: #7b838a;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    border: none;
+    outline: none;
+    color: black;
+
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: rgba(95, 236, 217, 0.96);
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+footer .subscribe a.yellow {
+    color: rgba(147, 235, 224, 0.825);
+    background: #8de5cdd2;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 2, 2);
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p {
+    color: #fff;
+}
